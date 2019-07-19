@@ -231,6 +231,7 @@ s2=91
 clas="fish"
 ##############################################################
 for def_level in deformation_list:
+# unmark it if you need to generate your own dataset for training. 
 #     a=LoaderFish.PointRegDataset(total_data=train_num, 
 #              deform_level=def_level,
 #              noise_ratio=0, 
